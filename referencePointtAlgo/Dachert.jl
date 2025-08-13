@@ -5,6 +5,7 @@
 include("commun.jl")
 
 
+# =============================================================================
 """
     compute_adaptive_parameters(
             x::Int64, 
@@ -51,10 +52,7 @@ function compute_adaptive_parameters(
 end
 
 
-# ======================
-
-# ======================
-
+# =============================================================================
 """
     solve_subproblem_knapsack(  
             solver::DataType, 
@@ -93,6 +91,7 @@ function solve_subproblem_knapsack(
 end
 
 
+# =============================================================================
 """
     DachertGorskiKlamroth_knapsack(  
             solver::DataType, 

@@ -1,4 +1,4 @@
-
+# =============================================================================
 """
     lex_optimize_knapsack(  solver::DataType,             
                             p::Matrix{Int64},   w::Vector{Int64},   c::Int64, 
@@ -52,6 +52,7 @@ function lex_optimize_knapsack(
 end
 
 
+# =============================================================================
 """
     SolveAugmentedWeightedTchebycheff(  
             solver::DataType, 
