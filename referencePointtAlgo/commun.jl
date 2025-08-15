@@ -59,7 +59,11 @@ end
             p::Matrix{Int64},  w::Vector{Int64},  c::Int64,  
             λ::Vector{Float64}, rp::Vector{Int64}, ρ::Float64)
 
-    Compute one nondominated point by application of the Tchebycheff theory
+    Compute one nondominated point by application of the Tchebycheff theory.
+    Application to the bi-objective 01 unidimensionnal knapsack problem. 
+        
+    In  Steuer, R.E., Choo, EU. An interactive weighted Tchebycheff procedure 
+        for multiple objective programming. Mathematical Programming 26, 326–344 (1983).    
 """
 function  SolveAugmentedWeightedTchebycheff(  
             solver::DataType, 
