@@ -2,8 +2,8 @@
 Talk given at RAMOO'2025
 
 Stable:
-- slides: `ramoo2025.pdf`
-- jupyter notebook: `AugmWeigTcheby.ipynb`
+- slides: `RAMOO2025.pdf`
+- jupyter notebook: `RAMOO2025.ipynb`
 
 Working on it:
 - codes
